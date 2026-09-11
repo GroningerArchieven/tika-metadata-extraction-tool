@@ -7,8 +7,8 @@
 - [Gebruik](#gebruik)
 - [Docker](#docker)
 - [Feature suggesties en bugs](#feature-suggesties-en-bugs)
-- [Contributors](#contributors)
-- [Licensie](#licensie)
+- [Auteurs](#auteurs)
+- [Licentie](#licentie)
 
 ## Achtergrond informatie
 
@@ -127,10 +127,9 @@ docker compose up
 - [ ] Meer bestandsformaten ondersteunen + gebruikerskeuze welke meegenomen worden.
 - [ ] Alternatieve output map instellen voor `.metadata` bestanden.
 
-### Autheurs
+### Auteurs
 
 [@Marco Venema](https://github.com/marcovenema). #Author
 
-## Licensie
-
-Add license info
+## Licentie
+De software wordt door de Groninger Archieven beschikbaargesteld onder een GPL v3.0 licentie. Zie [LICENSE](https://github.com/GroningerArchieven/tika-metadata-extraction-tool/blob/master/LICENSE). Op eventueel meegeleverde componenten zijn de daartoe behorende licenties van toepassing.
