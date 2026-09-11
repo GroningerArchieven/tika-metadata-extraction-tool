@@ -7,8 +7,8 @@
 - [Gebruik](#gebruik)
 - [Docker](#docker)
 - [Feature suggesties en bugs](#feature-suggesties-en-bugs)
-- [Contributors](#contributors)
-- [Licensie](#licensie)
+- [Auteurs](#auteurs)
+- [Licentie](#licentie)
 
 ## Achtergrond informatie
 
@@ -22,7 +22,7 @@ Voor het gebruik van de Metadata Tool is het volgende vereist:
 
 * Java 8 of hoger: (vereist voor Apache Tika) te downloaden via java.com
 
-* Apache Tika: voor het extraheren van metadata. Raadpleeg de officiële Tika documentatie voor installatie-instructies. Plaats het tika.jar bestand in de hoofdmap van het project (is standaard als je de libary cloned, voor de meest recente versie van het bestand: https://tika.apache.org/download.html)
+* Apache Tika: voor het extraheren van metadata. Raadpleeg de officiële Tika documentatie voor installatie-instructies. [Download](https://archive.apache.org/dist/tika/3.3.2/tika-app-3.3.2.jar) en plaats het tika-app-3.3.2.jar bestand in de hoofdmap van het project.
 
 **Python packages**
 
@@ -127,10 +127,10 @@ docker compose up
 - [ ] Meer bestandsformaten ondersteunen + gebruikerskeuze welke meegenomen worden.
 - [ ] Alternatieve output map instellen voor `.metadata` bestanden.
 
-### Autheurs
+### Auteurs
 
-[@Marco Venema](https://github.com/marcovenema). #Author
+[@Marco Venema]([https://github.com/marcovenema](https://github.com/mvenema94))
+[@Cain Weideman](https://github.com/GrA-Cain)
 
-## Licensie
-
-Add license info
+## Licentie
+De software wordt door de Groninger Archieven beschikbaargesteld onder een GPL v3.0 licentie. Zie [LICENSE](https://github.com/GroningerArchieven/tika-metadata-extraction-tool/blob/master/LICENSE). Op eventueel meegeleverde componenten zijn de daartoe behorende licenties van toepassing.
