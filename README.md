@@ -129,7 +129,7 @@ docker compose up
 
 ### Auteurs
 
-[@Marco Venema](https://github.com/marcovenema)
+[@Marco Venema]([https://github.com/marcovenema](https://github.com/mvenema94))
 [@Cain Weideman](https://github.com/GrA-Cain)
 
 ## Licentie
