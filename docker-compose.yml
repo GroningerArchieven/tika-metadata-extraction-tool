@@ -4,9 +4,7 @@ services:
     ports:
       - "8501:8501"
     volumes:
-      - /home/User/data:/data
-      - /home/User/logs:/logs
-      - /home/User/output:/output
-      - /home/User/excel:/excel
-    environment:
-      - TIKA_SERVER_JAR=/app/tika.jar
+      - /Users/user/data:/data
+      - /Users/user/logs:/logs
+      - /Users/user/output:/output
+      - /Users/user/excel:/excel

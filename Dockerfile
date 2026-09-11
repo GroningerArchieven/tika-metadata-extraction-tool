@@ -1,15 +1,18 @@
 # Gebruik een slanke Python 3.11 image op Debian-basis
 FROM python:3.11-slim
 
-# Installeer Java (OpenJDK 17 is klein en werkt prima met Tika)
+# Tika versie instelbaar maken via build-arg
+ARG TIKA_VERSION=3.3.2
+
+# Installeer Java (OpenJDK 21 is klein en werkt prima met Tika) + curl om de jar te downloaden
 RUN apt-get update && apt-get install -y --no-install-recommends \
     openjdk-21-jre-headless \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
 # Vertel Tika waar Java staat
 ENV JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
 ENV PATH="${JAVA_HOME}/bin:${PATH}"
-ENV TIKA_SERVER_JAR=/app/tika.jar
 
 # Werkdirectory in de container
 WORKDIR /app
@@ -18,7 +21,7 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Kopieer de rest van de broncode + tika.jar
+# Kopieer de rest van de broncode
 COPY . .
 
 # Streamlit luistert standaard op poort 8501
