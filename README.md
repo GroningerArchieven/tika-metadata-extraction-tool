@@ -129,7 +129,8 @@ docker compose up
 
 ### Auteurs
 
-[@Marco Venema](https://github.com/marcovenema). #Author
+[@Marco Venema](https://github.com/marcovenema)
+[@Cain Weideman](https://github.com/GrA-Cain)
 
 ## Licentie
 De software wordt door de Groninger Archieven beschikbaargesteld onder een GPL v3.0 licentie. Zie [LICENSE](https://github.com/GroningerArchieven/tika-metadata-extraction-tool/blob/master/LICENSE). Op eventueel meegeleverde componenten zijn de daartoe behorende licenties van toepassing.
