@@ -22,7 +22,7 @@ Voor het gebruik van de Metadata Tool is het volgende vereist:
 
 * Java 8 of hoger: (vereist voor Apache Tika) te downloaden via java.com
 
-* Apache Tika: voor het extraheren van metadata. Raadpleeg de officiële Tika documentatie voor installatie-instructies. [Download](https://archive.apache.org/dist/tika/3.3.2/tika-app-3.3.2.jar) en plaats het tika-app-3.3.2.jar bestand in de hoofdmap van het project.
+* Apache Tika 3.3.2: voor het extraheren van metadata. Raadpleeg de officiële Tika documentatie voor installatie-instructies. [Download](https://archive.apache.org/dist/tika/3.3.2/tika-app-3.3.2.jar) en plaats het tika-app-3.3.2.jar bestand in de hoofdmap van het project.
 
 **Python packages**
 
