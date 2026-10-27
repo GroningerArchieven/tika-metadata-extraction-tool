@@ -1,5 +1,5 @@
-# Gebruik een slanke Python 3.11 image op Debian-basis
-FROM python:3.11-slim
+# Gebruik een slanke Python 3.12 image op Debian-basis
+FROM python:3.12-slim
 
 # Tika versie instelbaar maken via build-arg
 ARG TIKA_VERSION=3.3.2
