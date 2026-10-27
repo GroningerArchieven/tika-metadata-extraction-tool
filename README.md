@@ -18,7 +18,7 @@ De Metadata Tool is een Python-gebaseerde applicatie voor het extraheren, visual
 
 Voor het gebruik van de Metadata Tool is het volgende vereist:
 
-* Python 3.10 of hoger: te downloaden via python.org
+* Python 3.12 of hoger: te downloaden via python.org
 
 * Java 8 of hoger: (vereist voor Apache Tika) te downloaden via java.com
 
