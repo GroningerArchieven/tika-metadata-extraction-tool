@@ -90,7 +90,7 @@ typing_extensions==4.16.0
 urllib3==2.7.0
 uvicorn==0.52.4
 websockets==17.1
-Werkzeug==3.1.8
+Werkzeug==3.1.9
 wrapt==2.4.1
 xarray==2026.7.0
 xlrd==2.0.2
